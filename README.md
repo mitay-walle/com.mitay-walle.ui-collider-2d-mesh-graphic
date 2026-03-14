@@ -15,6 +15,7 @@ Project is not production ready
 
 # Known Issues
 - CompositeCollider2D GeometryType.Outlines rendered as expanded corner-rounded polygon, not lines (Collider2D.CreateMesh output is always polygons, not outlines)
+- CompositeCollider2D placement is incorrect
 - Collider2D.CreateMesh always create new Mesh. GC
 - preferred width / height are calculated, but not respect pivot
 - atlased Sprite is not supported
