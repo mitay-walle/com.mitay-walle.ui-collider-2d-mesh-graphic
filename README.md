@@ -4,7 +4,7 @@ Unity uGUI custom graphic component extracting geometry from any Collider2D at s
 # Proof of Concept
 Project is not production ready
 # Summary
-- all Collider2D type supported
+- all Collider2D type supported. include CompositeCollider2D
 - tiled uv with ppu multiplier
 - any Texture
 - any Material
