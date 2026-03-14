@@ -13,5 +13,5 @@ Project is not production ready
 # Known Issues
 - CompositeCollider2D GeometryType.Outlines not supported (Collider2D.CreateMesh output is always polygons, not outlines)
 - Collider2D.CreateMesh always create new Mesh. GC
-- preferred width / height are calculated not
-- 
+- preferred width / height are calculated, but not respect pivot
+- atlased Sprite is not supported
