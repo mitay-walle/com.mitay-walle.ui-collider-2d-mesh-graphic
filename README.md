@@ -9,9 +9,11 @@ Project is not production ready
 - any Texture
 - any Material
 - maskable
+- flat color
 
 # Known Issues
 - CompositeCollider2D GeometryType.Outlines not supported (Collider2D.CreateMesh output is always polygons, not outlines)
 - Collider2D.CreateMesh always create new Mesh. GC
 - preferred width / height are calculated, but not respect pivot
 - atlased Sprite is not supported
+- graphic is flashing transparent when transform moves or mesh is edited
